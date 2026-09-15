@@ -1,0 +1,42 @@
+# Python
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Local SQLite databases
+*.db
+backend/database_backups/
+
+# Presentation and demo files
+DataForge PPT (v).pptx
+DataForge PPT.pdf
+PROTOTYPE DEMO.mov
+
+# Local source backups
+frontend/src_demo_ready_backup/
+frontend/src/RiskMap_before_offline.jsx
+
+# Previous Git history backup
+.git_old_backup/
